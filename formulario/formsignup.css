@@ -1,0 +1,82 @@
+﻿/* Reseteamos el CSS */
+p,h1,form,fieldset,label,input{
+	border:0;margin:0;padding:0;
+}
+
+body{
+	background:maroon;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:24px;
+	color:white;
+	border:1px solid #cfe0e9;
+}
+fieldset{
+	width:610px;
+	margin:auto;
+	overflow:hidden;
+	padding:20px;
+}
+h1{
+	margin:10px 0 0 0;
+	font-size:24px;
+}
+p{
+	margin:0 0 20px 0; padding:0 0 5px 0;
+	font-size:12px;
+	border-bottom:1px solid #cfe0e9;
+}
+#colum1{
+	float:left;
+	width:285px;
+}
+#colum2{
+	float:right;
+	width:300px;
+
+}
+
+label{
+	float:left;/* Importante, para la alineación */
+	width:300px; /* ancho del label */
+	font-size:12px;
+	margin:5px 0 15px;
+}
+
+input{
+	float:left;/* Importante, para la alineación */
+	width:590px; height:16px;/* Medidas del Input */
+	margin:0 0 5px 0; padding:5px;
+	color:black;font-size:14px;
+}
+span{
+	font-size:10px; /* Tamaño más pequeño para las indicaciones */
+	display:block; /* hace que salte de linea */
+}
+/* Personzaliando el botón de registrar */
+#registrar{
+	float:right;
+	padding:0; margin:15px 20px 0 0px;
+	background:#d0e8f7; color:black;
+	width:55px;height:25px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+
+}
+/* Hover a nuestro Boton 
+   No funciona en IE6(no se por qué lo siguen usando xD) */
+#registrar:hover{
+	background:#418eb6; color:#d0e8f7;
+}
+/* Opcional - Bordes Redondeados
+   Solo funciona con Firefox / Safari / Google Chrome */
+input,#registrar{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+/* Si usan esto ultimo no validara, porque aun no lo han estanderizado
+   pero funciona a la perfección - salvo con IE (la oveja negra) */
+
+
+
+
+

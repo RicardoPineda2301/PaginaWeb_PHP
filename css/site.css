@@ -1,0 +1,603 @@
+﻿/* line 19, ../css-sass/site.scss */
+body {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  background: transparent url('../images/HeaderBackgroundPhoto.jpg') no-repeat scroll top center;
+}
+
+/* line 27, ../css-sass/site.scss */
+a {
+  color: #056ab2;
+  text-decoration: none;
+}
+
+/* line 32, ../css-sass/site.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 36, ../css-sass/site.scss */
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  content: '.';
+  height: 0px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+/* line 46, ../css-sass/site.scss */
+h1, h2, h3 {
+  font-weight: bold;
+  color: #056ab2;
+}
+
+/* line 51, ../css-sass/site.scss */
+h1 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+/* line 57, ../css-sass/site.scss */
+h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* line 67, ../css-sass/site.scss */
+#skip-link {
+  position: absolute;
+}
+/* line 70, ../css-sass/site.scss */
+#skip-link a {
+  position: absolute;
+  display: block;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* line 80, ../css-sass/site.scss */
+#header {
+  position: relative;
+  width: 960px;
+  height: 110px;
+  margin: 0 auto;
+}
+/* line 88, ../css-sass/site.scss */
+#header .logo h1 {
+  margin: 2px 0 0 20px;
+}
+/* line 91, ../css-sass/site.scss */
+#header .logo h1 a {
+  display: block;
+  width: 335px;
+  height: 80px;
+  overflow: hidden;
+  background: transparent url('../images/logo.png') no-repeat scroll top left;
+}
+/* line 98, ../css-sass/site.scss */
+#header .logo h1 a span {
+  display: block;
+  padding: 80px 0 0 0;
+}
+/* line 106, ../css-sass/site.scss */
+#header .slogan {
+  display:block;
+  width: 295px;
+}
+/* line 109, ../css-sass/site.scss */
+#header .slogan .slogan-inner {
+  width: 181px;
+  height: 30px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: transparent url("../images/slogan.png") no-repeat scroll center center;
+}
+/* line 116, ../css-sass/site.scss */
+#header .slogan .slogan-inner span {
+  display: block;
+  padding: 116px 0 0 0;
+}
+
+/* line 136, ../css-sass/site.scss */
+#main-menu {
+  width: 960px;
+  margin: 0 auto;
+  padding: 5px 0 0 0;
+  border-bottom: 2px solid #056ab2;
+  overflow: hidden;
+}
+/* line 143, ../css-sass/site.scss */
+#main-menu h2 {
+  display: none;
+  visibility: hidden;
+}
+/* line 147, ../css-sass/site.scss */
+#main-menu ul {
+  display: block;
+  float: left;
+  font-size: 16px;
+}
+/* line 152, ../css-sass/site.scss */
+#main-menu ul li {
+  display: block;
+  float: left;
+  margin-left: 5px;
+}
+/* cuando la pestania no esta activa */
+#main-menu ul li a {
+  display: block;
+  float: left;
+  padding: 10px 20px 5px 20px;
+  font-weight: bold;
+  color: #056AB2;
+}
+/* pestanias_ color letra cuando se posiciona el mouse */
+#main-menu ul li a:hover {
+  text-decoration: none;
+  color: #be141d;
+}
+/* cuando la pestania esta activa */
+#main-menu ul li.active a {
+  padding-top: 9px;
+  font-weight: bold;
+  color: white;
+  border-top: 2px solid #056ab2;
+  border-left: 2px solid #056ab2;
+  border-right: 2px solid #056ab2;
+  background-color:#056AB2;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -o-border-top-left-radius: 10px;
+  -ms-border-top-left-radius: 10px;
+  -khtml-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -o-border-top-right-radius: 10px;
+  -ms-border-top-right-radius: 10px;
+  -khtml-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-box-shadow: 2px 2px 7px #666666;
+  -webkit-box-shadow: 2px 2px 7px #666666;
+  -o-box-shadow: 2px 2px 7px #666666;
+  box-shadow: 2px 2px 7px #666666;
+
+  	-o-transition: width .3s ease-in-out;
+	-ms-transition: width .3s ease-in-out;
+	-moz-transition: width .3s ease-in-out;
+	-webkit-transition: width .3s ease-in-out;
+
+ /*background: transparent url('../images/pixel.png') repeat scroll top left;*/
+}
+
+/* line 190, ../css-sass/site.scss */
+#content {
+  width: 960px;
+  min-height: 350px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+/* line 196, ../css-sass/site.scss */
+#content .first-column {
+  float: left;
+  width: 292px;
+}
+/* line 200, ../css-sass/site.scss */
+#content .first-column .block {
+  margin: 0 0 10px 0;
+}
+/* line 203, ../css-sass/site.scss */
+#content .first-column .block h2 {
+  margin: 0;
+  padding: 10px 20px 5px;
+  color: #fff;
+  text-align: center;
+  background-color: #FFBE00;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -o-border-top-left-radius: 10px;
+  -ms-border-top-left-radius: 10px;
+  -khtml-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -o-border-top-right-radius: 10px;
+  -ms-border-top-right-radius: 10px;
+  -khtml-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* line 212, ../css-sass/site.scss */
+#content .first-column .block .block-data {
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+/* line 220, ../css-sass/site.scss */
+#content .content {
+  float: right;
+  width: 658px;
+  padding-bottom: 5px;
+}
+
+/* line 124, ../css-sass/site.scss */
+#content .content .bottom .links {
+  display: none;
+	float: left;
+}
+/* line 130, ../css-sass/site.scss */
+#content .content .bottom .links h2 {
+  display: none;
+  visibility: hidden;
+}
+
+#content .content .bottom #SignUp {
+	display: block;
+	float: right;
+	padding: 10px 10px 0 0;
+}
+
+
+#content .content .col1_TT {
+  width: 390px;
+}
+
+#Aside {
+	width:160px;
+	float:left;
+}
+#Bside {
+	width:190px;
+	float:right;
+}
+
+ #content .content .col2_TT {
+  width: 230px;
+}
+
+/* line 233, ../css-sass/site.scss */
+#content .content .col1_TT {
+  width: 380px;
+  margin-left: 15px;
+  float: left;
+}
+/* line 238, ../css-sass/site.scss */
+#content .content .col2_TT {
+	width: 250px;
+  float: right;
+}
+
+
+
+/* line 229, ../css-sass/site.scss */
+#content .content .col1 {
+  width: 250px;
+}
+
+ #content .content .col2 {
+  width: 200px;
+}
+
+/* line 233, ../css-sass/site.scss */
+#content .content .col1 {
+	width: 270px;
+  margin-left: 40px;
+  float: left;
+}
+/* line 238, ../css-sass/site.scss */
+#content .content .col2 {
+	width: 270px;
+  float: right;
+}
+
+/* line 242, ../css-sass/site.scss */
+#content .content .one-col {
+  width: 310px;
+  margin: 0 auto;
+}
+/* line 248, ../css-sass/site.scss */
+#content .content ul.list-url li {
+  margin-bottom: 20px;
+}
+/* line 251, ../css-sass/site.scss */
+#content .content ul.list-url li a {
+  height:140px;
+  width:275px;
+  display: block;
+  padding: 10px 5px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  background-image:url('../images/boton_vacationers.png');
+  background-repeat:no-repeat;
+}
+/* line 261, ../css-sass/site.scss */
+#content .content ul.list-url li a img {
+  margin-bottom: 5px;
+}
+/* line 266, ../css-sass/site.scss */
+#content .content ul.list-url li a:hover {
+  text-decoration: none !important;
+}
+
+/* line 275, ../css-sass/site.scss */
+#content .first-column .amadeus-search .block-data {
+  height: 280px;
+  overflow: hidden;
+}
+/* Menu de Search Box*/
+.botones2 {
+	display:block;
+}
+.botones2 ul {
+	float:left;
+	margin:0;
+	padding:5 0 2 0;
+}
+.botones2 li{
+	float:left;
+	list-style:none;
+	border:none;
+	padding-left:5px;
+	padding-top:0;
+}
+.botones2 a{
+	font-weight:bold;
+	text-decoration:none;
+	border-left:none;
+	display:block;
+	margin:2 0 0 0;
+	width:38px;
+	height:18px;
+	background-color:#FFE001;
+	padding:2px 26px 2px 26px;
+	color:#0C316D;
+	border: 1px solid #FFBE00;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+.botones2 a:hover {
+	color:white;
+	font-weight:bold;
+	background-color:#FFBE00;
+	border: 1px solid #FFE001;
+}
+
+/* formulario check my trip*/
+
+#form1{
+	padding: 10px 0 0 0;
+	color: #000;
+	background-image:url('../images/checkYourTripBk.png');
+	background-repeat:no-repeat;
+	width:300px;
+	height:213px;
+}
+#form1 h3{
+	color:#056ab2;
+	font-size:16px;
+	text-align: left;
+	padding: 5px 10px 10px 25px;
+  	text-transform: uppercase;
+
+}
+fieldset{
+ 	width: 175px;
+	margin:auto;
+	overflow:hidden;
+	padding:3px;
+	border:none;
+}
+
+label{
+	float:left;/* Importante, para la alineaciÃ³n */
+	width:175px; /* ancho del label */
+	font-size:12px;
+	margin:2px 0 2px;
+	padding-left:10px;
+	color:#0C316D;
+}
+
+input{
+	float:left;/* Importante, para la alineaciÃ³n */
+	width:160px; height:15px;/* Medidas del Input */
+	margin:0 0 2px 2px; padding:2px;
+	font-size:12px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+}
+/* Personzaliando el botÃ³n de registrar */
+#registrar {
+	cursor: pointer;
+	float:right;
+	padding:0; margin:10px 0 0 40px;
+	background:#d0e8f7; color:#418eb6;
+	width:55px;height:25px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+}
+/* Hover a nuestro Boton
+   No funciona en IE6 */
+#registrar:hover{
+	background:#056ab2; color:#d0e8f7;
+}
+/* Opcional - Bordes Redondeados
+   Solo funciona con Firefox / Safari / Google Chrome */
+input,#registrar{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+/* line 281, ../css-sass/site.scss */
+#content .first-column .amadeus-trip {
+  margin-bottom: 0;
+}
+/* line 284, ../css-sass/site.scss */
+#content .first-column .amadeus-trip .block-data {
+  height: 215px;
+  /*border-top: 1px solid #056ab2;*/
+}
+
+/* line 291, ../css-sass/site.scss */
+#content .content .trip-tools {
+  padding: 10px 20px;
+  background-image:url('../images/TripToolNew.png');
+  background-repeat:no-repeat;
+  width: 310px;
+  height:200px;
+}
+/* line 298, ../css-sass/site.scss */
+#content .content .trip-tools h2 {
+  padding: 5px 0 10px 28px;
+  text-transform: uppercase;
+}
+/* line 304, ../css-sass/site.scss */
+#content .content .trip-tools a {
+  color: #000;
+}
+/* line 308, ../css-sass/site.scss */
+#content .content .trip-tools a:hover {
+  color: #056ab2;
+  text-decoration: none;
+}
+/* line 313, ../css-sass/site.scss */
+#content .content .trip-tools ul {
+  margin-left: 20px;
+  list-style: circle;
+  list-style-position: inside;
+  list-style-image: url("../images/ul-next.png");
+}
+
+/* line 325, ../css-sass/site.scss */
+#footer {
+  width: 960px;
+  padding: 2px 0 0 0;
+  margin: 0 auto;
+  font-size: 14px;
+  border-top: 6px solid #fd0100;
+}
+/* line 332, ../css-sass/site.scss */
+#footer .footer-inner {
+  position: relative;
+  padding: 10px;
+  color: #fff;
+  background-color: #056ab2;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -o-border-bottom-left-radius: 10px;
+  -ms-border-bottom-left-radius: 10px;
+  -khtml-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -o-border-bottom-right-radius: 10px;
+  -ms-border-bottom-right-radius: 10px;
+  -khtml-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* line 339, ../css-sass/site.scss */
+#footer .footer-inner a {
+  color: #fff;
+}
+/* line 343, ../css-sass/site.scss */
+#footer .footer-inner .copy {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+/* line 348, ../css-sass/site.scss */
+#footer .footer-inner .copy .small {
+  font-size: 10px;
+}
+/* line 353, ../css-sass/site.scss */
+#footer .footer-inner .iata {
+  position: absolute;
+  left: 406px;
+  top: 25px;
+}
+/* line 358, ../css-sass/site.scss */
+#footer .footer-inner .iata h2 {
+  width: 68px;
+  height: 44px;
+  overflow: hidden;
+  margin: 0;
+  background: transparent url("../images/IATA.gif") no-repeat scroll center center;
+}
+/* line 365, ../css-sass/site.scss */
+#footer .footer-inner .iata h2 span {
+  display: block;
+  padding: 60px 0 0 0;
+}
+/* line 372, ../css-sass/site.scss */
+#footer .footer-inner .contact {
+  float:right;
+  text-align: right;
+}
+#social {
+	float:left;
+	display:block;
+}
+/* line 376, ../css-sass/site.scss */
+#footer .footer-inner .contact .skype {
+  padding: 0 0 0 17px;
+  background: transparent url("../images/skype.png") no-repeat scroll center left;
+}
+#footer .footer-inner .contact .twitter {
+  padding: 0 0 0 17px;
+  background: transparent url('../images/twitter.png') no-repeat scroll center left;
+}
+
+/* line 381, ../css-sass/site.scss */
+#footer .footer-inner .contact .email {
+  padding: 0 0 0 17px;
+  background: transparent url("../images/email.png") no-repeat scroll center left;
+}
+/* line 387, ../css-sass/site.scss */
+#footer .footer-inner .social {
+  position: absolute;
+  width: 452px;
+  height: 32px;
+  top: -75px;
+  float:right;
+}
+/* line 392, ../css-sass/site.scss */
+#footer .footer-inner .social #fb-root {
+  display: block;
+  float: right;
+  margin: 0 0 0 10px;
+  overflow:visible;
+}
+#footer .footer-inner .social .twitter {
+  display: block;
+  width: 42px;
+  height: 32px;
+  margin: 0 0 0 0px;
+  overflow: hidden;
+
+}
+/* line 400, ../css-sass/site.scss */
+#footer .footer-inner .social .fb span, #footer .footer-inner .social .twitter span {
+  display: block;
+  padding: 40px 0 0 0;
+  overflow: hidden;
+}
+/* line 406, ../css-sass/site.scss */
+#footer .footer-inner .social .fb {
+}
+/* line 410, ../css-sass/site.scss */
+#footer .footer-inner .social .twitter {
+  background: transparent url("../images/twitter.png") no-repeat scroll center left;
+}
